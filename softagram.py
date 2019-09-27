@@ -28,7 +28,7 @@ def main():
                             internallist.append(file + ":" + depfile + ":require_internal")
     #writing output files
     writefile(projectname)
-
+    
 def finddepword(line):
     #get dependent filename
     if "'" in line:
