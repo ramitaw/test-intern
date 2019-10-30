@@ -27,7 +27,7 @@ def main():
                         else:
                             internallist.append(file + ":" + depfile + ":require_internal")
     #writing output files
-    writefile(projectname)
+    #writefile(projectname)
     
 def finddepword(line):
     #get dependent filename
