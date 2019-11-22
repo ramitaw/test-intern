@@ -44,7 +44,7 @@ def finddepword(line):
 def finddependencyfile(depword,file):
     #determine whether it is external or internal
     path = file.rsplit("/",1)[0]
-    depfile = path + "/" + depword + ".rb"
+    #depfile = path + "/" + depword + ".rb"
     if depfile in filelist:
         return depfile
     else:
